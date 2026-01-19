@@ -1,8 +1,8 @@
-# 💰 Alke Wallet
+# Allke Wallet
 
 Billetera digital que permite gestionar dinero de forma segura y sencilla.
 
-## 🚀 Funcionalidades
+##  Funcionalidades de mi proyecti
 
 - **Login de usuario**: Validación de email y contraseña
 - **Visualizar saldo**: Consulta tu saldo disponible en tiempo real
@@ -12,8 +12,7 @@ Billetera digital que permite gestionar dinero de forma segura y sencilla.
 - **Historial de transacciones**: Visualiza todos tus movimientos
 - **Filtrar transacciones**: Filtra por depósitos o transferencias
 
-## 🛠️ Tecnologías
-
+##  Tecnologías Usadas
 - HTML5
 - CSS3
 - Bootstrap 4.6.2
@@ -21,7 +20,7 @@ Billetera digital que permite gestionar dinero de forma segura y sencilla.
 - JavaScript (ES6)
 - LocalStorage
 
-## 📦 Cómo usar
+## Cómo usar
 
 1. Abre `login.html` en tu navegador
 2. Ingresa las credenciales:
@@ -29,8 +28,7 @@ Billetera digital que permite gestionar dinero de forma segura y sencilla.
    - **Contraseña**: 1234
 3. Explora las funcionalidades
 
-## 📂 Estructura
-```
+## Estructura
 alke-wallet/
 ├── css/
 ├── js/
@@ -54,10 +52,6 @@ alke-wallet/
 - `feature/depositos` - Depósitos y actualización de saldo
 - `feature/transacciones` - Envío de dinero y visualización de movimientos
 
-## 👨‍💻 Autor
+##  Autor
 
-[Tu Nombre]
-
-## 📅 Año
-
-2025
+Javier Gracia
