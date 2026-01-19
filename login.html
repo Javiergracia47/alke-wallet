@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alke Wallet | Login</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+
+  <div class="container vh-100 d-flex align-items-center justify-content-center">
+    <div class="row w-100">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
+        <div class="card shadow-lg rounded-lg p-4">
+
+          <div class="text-center mb-4">
+            <h1 class="h3 text-primary font-weight-bold">Alke Wallet</h1>
+            <p class="text-muted">Administra tu dinero de forma segura y sencilla</p>
+          </div>
+
+          <form id="loginForm">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control form-control-lg rounded-pill" placeholder="Correo electrónico" required>
+            </div>
+            <div class="form-group">
+              <input type="password" id="password" class="form-control form-control-lg rounded-pill" placeholder="Contraseña" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block rounded-pill shadow-sm">Ingresar</button>
+          </form>
+
+          <p id="loginError" class="text-danger text-center mt-3" style="display:none;">
+            Credenciales incorrectas
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/auth.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wallet - Enviar Dinero</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-dark bg-dark">
+  <span class="navbar-brand">Alke Wallet</span>
+</nav>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-sm-10 col-md-8 col-lg-6 p-3">
+      <h2 class="mb-4 text-center">Enviar Dinero</h2>
+      <form>
+        <div class="form-group">
+          <label for="searchContact">Buscar en la agenda de transferencias:</label>
+          <input type="text" class="form-control" id="searchContact" placeholder="Buscar contacto" />
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block mb-4">Agregar nuevo contacto</button>
+
+        <h4>Contactos</h4>
+        <ul id="contactList" class="list-group mb-4">
+          <li class="list-group-item">
+            <div><strong>John Doe</strong></div>
+            <small class="text-muted">CBU: 123456789, Alias: john.doe, Banco: ABC Bank</small>
+          </li>
+          <li class="list-group-item">
+            <div><strong>Jane Smith</strong></div>
+            <small class="text-muted">CBU: 987654321, Alias: jane.smith, Banco: XYZ Bank</small>
+          </li>
+        </ul>
+
+        <button type="submit" class="btn btn-success btn-lg btn-block">Enviar dinero</button>
+      </form>
+
+      <a href="menu.html" class="btn btn-secondary btn-block mt-4">Volver al Menú Principal</a>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/sendmoney.js"></script>
+
+</body>
+</html>
